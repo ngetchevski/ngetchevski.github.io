@@ -116,8 +116,8 @@ h3{
 }
 
 .second--image img{
-    width: 250px;
-    height: 400px;
+    width: 9vw;
+    height: 28vh;
     object-fit: cover;
 }
 .second--image img:hover{
@@ -127,8 +127,8 @@ h3{
 }
 
 .gallery{
-  width: 250px;
-  height: 400px;
+  width: 9vw;
+  height: 28vh;
   object-fit: cover;
   box-shadow: 0px 0px 15px 0px #17161694;
 }
