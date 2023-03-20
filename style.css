@@ -35,6 +35,7 @@ a{
 
 .home{
     width: 100vw;
+    height: 100vh;
     display: flex;
     display:grid;
     grid-template-columns: 1fr;
@@ -105,21 +106,21 @@ h3{
 
 .second--image{
     display:grid;
-    grid-template-columns: 1em 1em 1em 1em;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1vw 1vw 1vw 1vw;
+    grid-template-rows: 30vh 30vh;
     grid-template-areas: 
       "a b c d"
       "e f g h";
     column-gap: 400px;        
     row-gap: 150px;
     place-items: center center;
-    margin-top: 11em;
+    margin-top: 18vh;
     justify-content: center;
 }
 
 .second--image img{
-    width: 175px;
-    height: 300px;
+    width: 10vw;
+    height: 30vh;
     object-fit: cover;
 }
 .second--image img:hover{
@@ -129,8 +130,8 @@ h3{
 }
 
 .gallery{
-    width: 175px;
-    height: 300px;
+    width: 10vw;
+    height: 30vh;
     object-fit: cover;
     box-shadow: 0px 0px 15px 0px #17161694;
 }
