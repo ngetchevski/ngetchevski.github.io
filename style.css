@@ -54,7 +54,6 @@ a{
 }
 
 h1{
-    font-size: 70px;
     text-transform: uppercase;
     letter-spacing: 10px;
     border-style: solid;
@@ -62,7 +61,6 @@ h1{
     border-width: 1px 0 1px 0;
 }
 h2{
-    font-size: 70px;
     text-transform: uppercase;
     letter-spacing: 10px;
     border-style: solid;
@@ -75,6 +73,11 @@ h2{
 h3{
     font-size: 35px;
     font-weight: lighter
+}
+@media (max-width: 3000px){
+    h1, h2{
+        font-size: 70px;
+    }
 }
 
 .image-home{
@@ -120,12 +123,13 @@ h3{
     .second--image{      
         row-gap: 50px;
         margin-top: 5em;
+        object-fit: cover;
     }
     .content-home{
         margin-top: -150px;
     }
     h1, h2{
-        font-size: 50px;
+        font-size: 60px;
     }
     h3{
         font-size: 25px;
@@ -139,9 +143,14 @@ h3{
     }
 }
 
+@media (max-width: 3000px){
+    .second--image img, .gallery{
+        width: 250px;
+        height: 400px;
+    }
+}
+
 .second--image img{
-    width: 250px;
-    height: 400px;
     object-fit: cover;
 }
 .second--image img:hover{
@@ -153,8 +162,6 @@ h3{
 .gallery{
     object-fit: cover;
     box-shadow: 0px 0px 15px 0px #17161694;
-    width: 250px;
-    height: 400px;
 }
 
 /* about */
