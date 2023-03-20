@@ -119,7 +119,7 @@ h3{
     justify-content: center;
 }
 
-@media (max-width: 2000px){
+@media (max-width: 2700px){
     .second--image{      
         row-gap: 50px;
         margin-top: 5em;
