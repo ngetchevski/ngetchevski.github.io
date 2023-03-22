@@ -209,6 +209,9 @@ p{
     top: 0.5em;
     width: 5em;
 }
+.ul__first img{
+    width: 10vw;
+}
 .main-nav .ul__second{
     position: fixed;
     display: flex;
